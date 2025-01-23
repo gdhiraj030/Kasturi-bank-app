@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kasturi Bank | Modern Digital Banking</title>
+     <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <img src="images/logo.png" alt="NeoBank logo" class="main-nav__logo" id="main-logo" />
+            <ul class="main-nav__menu">
+                <li class="main-nav__menu-item">
+                    <a class="main-nav__menu-link" href="#features">Features</a>
+                </li>
+                <li class="main-nav__menu-item">
+                    <a class="main-nav__menu-link" href="#services">Services</a>
+                </li>
+                <li class="main-nav__menu-item">
+                    <a class="main-nav__menu-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="main-nav__menu-item">
+                    <a class="main-nav__menu-link main-nav__menu-link--cta btn--register" href="#">
+                        Register Now
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <h1 class="hero__title">
+                <span class="hero__title--accent">Banking</span>
+                for the digital<br />
+                <span class="hero__title--accent">generation</span>
+            </h1>
+            <h4 class="hero__subtitle">Experience banking without boundaries.</h4>
+            <button class="btn  btn--explore">Explore Features &darr;</button>
+            <img src="images/moneyplant.jpg" class="hero__image" alt="Digital banking interface" />
+        </div>
+    </header>
+
+    <section class="section" id="features">
+        <div class="section__container">
+            <h2 class="section__tag">Features</h2>
+            <h3 class="section__title">
+                Banking that works around your lifestyle.
+            </h3>
+        </div>
+        <div class="feature-grid">
+            <img src="images/digital-lazy.jpg" data-src="images/digital.jpg" alt="Mobile banking interface"
+                class="feature-grid__image image--lazy" />
+            <div class="feature-grid__item">
+                <div class="feature-grid__icon">
+                    <svg>
+                        <use xlink:href="images/icons.svg#icon-monitor"></use>
+                    </svg>
+                </div>
+                <h5 class="feature-grid__title">Mobile-First Banking</h5>
+                <p class="feature-grid__description">
+                    Manage your finances anytime, anywhere with our award-winning mobile app.
+                    Send money instantly, track expenses, and control your cards with a tap.
+                </p>
+            </div>
+
+            <div class="feature-grid__item">
+                <div class="feature-grid__icon">
+                    <svg>
+                        <use xlink:href="images/icons.svg#icon-trending-up"></use>
+                    </svg>
+                </div>
+                <h5 class="feature-grid__title">Smart Investments</h5>
+                <p class="feature-grid__description">
+                    Start investing with as little as $1. Access stocks, ETFs, and crypto
+                    with real-time insights and automated portfolio management.
+                </p>
+            </div>
+            <img data-src="images/plant.jpg" src="images/plant-lazy.jpg" alt="Investment dashboard" class="feature-grid__image image--lazy" />
+
+            <img data-src="images/atm.jpg" src="images/atm-lazy.jpg" alt="Contactless payment" class="feature-grid__image image--lazy" />
+            <div class="feature-grid__item">
+                <div class="feature-grid__icon">
+                    <svg>
+                        <use xlink:href="images/icons.svg#icon-credit-card"></use>
+                    </svg>
+                </div>
+                <h5 class="feature-grid__title">Next-Gen Payments</h5>
+                <p class="feature-grid__description">
+                    Enjoy contactless payments, virtual cards, and integration with Apple Pay
+                    and Google Pay. Plus, get real-time notifications for all transactions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="section__container">
+            <h2 class="section__tag">Services</h2>
+            <h3 class="section__title">
+                Smart solutions for your financial needs.
+            </h3>
+        </div>
+
+        <div class="services">
+            <div class="services__tabs">
+                <button class="btn services__tab services__tab--active" data-tab="1">
+                    <span>01</span>Money Transfers
+                </button>
+                <button class="btn services__tab" data-tab="2">
+                    <span>02</span>Personal Loans
+                </button>
+                <button class="btn services__tab" data-tab="3">
+                    <span>03</span>Savings Goals
+                </button>
+            </div>
+
+            <div class="services__content services__content-1 services__content--active">
+                <div class="services__icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-upload"></use>
+                    </svg>
+                </div>
+                <h5 class="services__title">
+                    Lightning-fast transfers worldwide
+                </h5>
+                <p class="services__description">
+                    Send money globally with zero fees and real-time exchange rates.
+                    Support for 30+ currencies and instant transfers between NeoBank accounts.
+                </p>
+            </div>
+            <div class="services__content services__content-2">
+                <div class="services__icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-home"></use>
+                    </svg>
+                </div>
+                <h5 class="services__title">
+                    Manage Your Personal Finances
+                </h5>
+                <p class="services__description">
+                    Track your spending and income, categorize your transactions, and set personalized budgets to achieve your
+                    financial goals.
+                </p>
+            </div>
+            
+            <!-- Saving Goals Section -->
+            <div class="services__content services__content-3">
+                <div class="services__icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-user-x"></use>
+                    </svg>
+                </div>
+                <h5 class="services__title">
+                    Set and Achieve Saving Goals
+                </h5>
+                <p class="services__description">
+                    Easily set up saving goals for emergencies, vacations, or large purchases, and watch your progress towards
+                    achieving them.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="reviews">
+        <div class="section__container">
+            <h2 class="section__tag">Reviews</h2>
+            <h3 class="section__title">
+                Join thousands of satisfied customers worldwide.
+            </h3>
+        </div>
+    
+        <div class="review-slider">
+            <!-- Slide 1 -->
+            <div class="review-slider__slide">
+                <div class="review">
+                    <h5 class="review__title">Game-changing banking experience!</h5>
+                    <blockquote class="review__text">
+                        NeoBank has transformed how I manage my money. The app is intuitive,
+                        transfers are instant, and the investment features are perfect for
+                        beginners like me. The customer service is outstanding too!
+                    </blockquote>
+                    <address class="review__author">
+                        <img src="images/user-1.jpg" alt="Sarah Chen" class="review__photo" />
+                        <h6 class="review__name">Sarah Chen</h6>
+                        <p class="review__location">Singapore</p>
+                    </address>
+                </div>
+            </div>
+    
+            <!-- Slide 2 -->
+            <div class="review-slider__slide">
+                <div class="review">
+                    <h5 class="review__title">Excellent Customer Service!</h5>
+                    <blockquote class="review__text">
+                        The support team at NeoBank is phenomenal. I had a query regarding a
+                        transaction, and they resolved it promptly with great care. Highly
+                        recommend their services!
+                    </blockquote>
+                    <address class="review__author">
+                        <img src="images/user-2.jpg" alt="James Smith" class="review__photo" />
+                        <h6 class="review__name">James Smith</h6>
+                        <p class="review__location">USA</p>
+                    </address>
+                </div>
+            </div>
+    
+            <!-- Slide 3 -->
+            <div class="review-slider__slide">
+                <div class="review">
+                    <h5 class="review__title">A Truly Revolutionary Platform!</h5>
+                    <blockquote class="review__text">
+                        I love how easy it is to manage my investments on NeoBank. The app's
+                        features allow me to make informed decisions quickly and easily. A
+                        must-have for anyone serious about managing their finances!
+                    </blockquote>
+                    <address class="review__author">
+                        <img src="images/user-3.jpg" alt="Emma Johnson" class="review__photo" />
+                        <h6 class="review__name">Emma Johnson</h6>
+                        <p class="review__location">UK</p>
+                    </address>
+                </div>
+            </div>
+    
+            <!-- Navigation Buttons -->
+            <button class="review-slider__btn review-slider__btn--prev">&larr;</button>
+            <button class="review-slider__btn review-slider__btn--next">&rarr;</button>
+    
+            <!-- Dots Navigation -->
+            <div class="review-slider__dots"></div>
+        </div>
+    </section>
+
+
+
+    <section class="section section--cta">
+        <div class="section__container">
+            <h3 class="section__title">
+                Start your financial journey today with NeoBank!
+            </h3>
+        </div>
+        <button class="btn btn--primary btn--register">Open your free account</button>
+    </section>
+
+    <footer class="main-footer">
+        <ul class="main-footer__nav">
+            <li class="main-footer__item">
+                <a class="main-footer__link" href="#">About Us</a>
+            </li>
+            <li class="main-footer__item">
+                <a class="main-footer__link" href="#">Features</a>
+            </li>
+            <li class="main-footer__item">
+                <a class="main-footer__link" href="#">Security</a>
+            </li>
+            <li class="main-footer__item">
+                <a class="main-footer__link" href="#">Privacy</a>
+            </li>
+            <li class="main-footer__item">
+                <a class="main-footer__link" href="#">Careers</a>
+            </li>
+            <li class="main-footer__item">
+                <a class="main-footer__link" href="#">Help Center</a>
+            </li>
+        </ul>
+        <img src="images/logo.png" alt="Logo" class="main-footer__logo" />
+        <p class="main-footer__copyright">
+            &copy; 2025 Kasturi Bank. All rights reserved.
+        </p>
+    </footer>
+
+    <div class="modal modal--hidden">
+        <button class="modal__close">&times;</button>
+        <h2 class="modal__title">
+            Open your account <br />
+            in just <span class="modal__highlight">3 minutes</span>
+        </h2>
+        <form class="modal__form">
+            <label>First Name</label>
+            <input type="text" required />
+            <label>Last Name</label>
+            <input type="text" required />
+            <label>Email Address</label>
+            <input type="email" required />
+            <button class="btn btn--primary">Get Started &rarr;</button>
+        </form>
+    </div>
+    <div class="overlay overlay--hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
